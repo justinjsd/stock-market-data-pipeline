@@ -1,4 +1,5 @@
-## 🚀 This project was done using Marc Lamberti's course on Airflow on Udemy! Check it out [here](https://www.udemy.com/course/the-ultimate-hands-on-course-to-master-apache-airflow/?srsltid=AfmBOor35w2wMByO0RtUBFM02tTwa279AbvrChnyRj-SdMXLcqc-hCA8&couponCode=LETSLEARNNOW) for a better explanation.
+## 🚀 This project was done using Marc Lamberti's course on Airflow on Udemy! Check it out
+<a href="https://www.udemy.com/course/the-ultimate-hands-on-course-to-master-apache-airflow/?srsltid=AfmBOor35w2wMByO0RtUBFM02tTwa279AbvrChnyRj-SdMXLcqc-hCA8&couponCode=LETSLEARNNOW" target="_blank">here</a> for a better explanation.
 
 <img src="image.png" alt="Description" width="30"> Overview 
 ========
