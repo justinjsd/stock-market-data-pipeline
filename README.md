@@ -1,6 +1,6 @@
 This project was done using Marc Lamberti's course on Airflow on Udemy! Check it out [here](https://www.udemy.com/course/the-ultimate-hands-on-course-to-master-apache-airflow/?srsltid=AfmBOor35w2wMByO0RtUBFM02tTwa279AbvrChnyRj-SdMXLcqc-hCA8&couponCode=LETSLEARNNOW) for a better explanation.
 
-<img src="image.png" alt="Description" width="50"> Overview 
+<img src="image.png" alt="Description" width="40"> Overview 
 ========
 
 Welcome to Astronomer! This project was generated after you ran 'astro dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
