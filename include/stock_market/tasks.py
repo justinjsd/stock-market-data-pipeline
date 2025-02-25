@@ -3,6 +3,8 @@ import  json
 from io import BytesIO
 from minio import Minio
 
+# These are the tasks executed by the DAG - stock_market.py
+
 def _get_stock_prices(url, symbol):
     import requests
     import json
