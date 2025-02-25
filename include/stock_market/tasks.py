@@ -5,6 +5,7 @@ from minio import Minio
 
 # These are the tasks executed by the DAG - stock_market.py
 
+# Gets Stock Prices and outputs the data as JSON
 def _get_stock_prices(url, symbol):
     import requests
     import json
@@ -14,6 +15,7 @@ def _get_stock_prices(url, symbol):
     response = requests.get(url, headers=api.extra_dejson['headers'])
     return json.dumps(response.json()['chart']['result'][0])
 
+# Store Prices Function returns the path to the stored object in the format required in the MinIO Storage
 def _store_prices(stock):
     minio = BaseHook.get_connection('minio')
     client = Minio(
