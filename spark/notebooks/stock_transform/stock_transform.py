@@ -1,5 +1,5 @@
 # README:
-# SPARK_APPLICATION_ARGS contains stock-market/MSTR/prices.json
+# SPARK_APPLICATION_ARGS contains stock-market/AAPL/prices.json
 # SPARK_APPLICATION_ARGS will be passed to the Spark application as an argument -e when running the Spark application from Airflow
 # - Sometimes the script can stay stuck after "Passing arguments..."
 # - Sometimes the script can stay stuck after "Successfully stopped SparkContext"
