@@ -15,8 +15,10 @@ The pipeline performs the following tasks:
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&style=flat-square) 
 ![Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?logo=apacheairflow&style=flat-square)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&style=flat-square)
 ![Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?logo=apachespark&style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white&style=flat-square)
+![MinIO](https://img.shields.io/badge/MinIO-C12127?logo=minio&logoColor=white&style=flat-square)
+![Metabase](https://img.shields.io/badge/Metabase-509EE3?logo=metabase&logoColor=white&style=flat-square)
 
 ## 📂 Project Structure
