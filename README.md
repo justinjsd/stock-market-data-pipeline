@@ -38,3 +38,10 @@ To set up the project locally:
    ```bash
    git clone https://github.com/justinjsd/stock-market-data-pipeline.git
    cd stock-market-data-pipeline
+
+2. **Using the Astro CLI to execute commands** [Make sure to download the Astro CLI]
+   
+   ```astro dev start``` to build the image
+   ```astro dev stop``` to stop the containers
+   
+   Make sure to build the docker images for **spark-worker** and **spark-master** first using ```docker build -t airflow/spark-master``` and ```docker build -t airflow/spark-worker``` After this use the astro dev start command.
