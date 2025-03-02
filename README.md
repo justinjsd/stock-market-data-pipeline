@@ -6,10 +6,12 @@ This project demonstrates the construction of a data pipeline using **Apache Air
 
 The pipeline performs the following tasks:
 
-- **📥 Data Extraction**: Retrieves stock market data from external APIs.
-- **🔄 Data Transformation**: Cleans and processes the extracted data.
-- **🗄️ Data Loading**: Stores the transformed data into a database for analysis.
-- **📊 Data Analysis**: Uses Spark to perform analytics on stock trends.
+- **⚙️ Data Orchestration**: The Entire pipeline is orchestrated using Apache Airflow
+- **📥 Data Extraction**: Retrieves stock market data from external stock data [Yahoo Finance API].
+- **📦 Data Storage**: Storing the data in **Minio** (S3 like bucket)
+- **🔄 Data Transformation**: Cleans and processes the extracted data using **Apache Spark**.
+- **🗄️ Data Loading**: Stores the transformed data into a database for analysis into **Postgres**.
+- **📊 Data Analysis**: Analyzing the data using Metabase 
 
 ## 🛠️ Tech Stack
 
