@@ -26,7 +26,7 @@ The pipeline performs the following tasks:
 ## 📂 Project Structure
 
 - **`dags/`**: Contains Airflow DAGs defining the ETL pipeline.
-- **`include/`**: Stores auxiliary files and SQL queries.
+- **`include/`**: Stores the tasks file which contains python functions that are executed through airflow and used in the dags/ folder
 - **`spark/`**: Includes Apache Spark scripts for large-scale data processing.
 - **`tests/`**: Contains test cases to validate DAG execution.
 
