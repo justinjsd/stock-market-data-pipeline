@@ -24,3 +24,17 @@ The pipeline performs the following tasks:
 ![Metabase](https://img.shields.io/badge/Metabase-509EE3?logo=metabase&logoColor=white&style=flat-square)
 
 ## 📂 Project Structure
+
+- **`dags/`**: Contains Airflow DAGs defining the ETL pipeline.
+- **`include/`**: Stores auxiliary files and SQL queries.
+- **`spark/`**: Includes Apache Spark scripts for large-scale data processing.
+- **`tests/`**: Contains test cases to validate DAG execution.
+
+## 🐳 Getting Started
+
+To set up the project locally:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/justinjsd/stock-market-data-pipeline.git
+   cd stock-market-data-pipeline
